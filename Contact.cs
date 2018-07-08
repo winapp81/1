@@ -31,4 +31,10 @@ public class Contact : PdaItem
         get { return InternalPerson.LastName;}
         set { InternalPerson.LastName = value}
     }
+
+
+    public PdaItem(string name)
+    {
+        Name = name;
+    }
 }
